@@ -1,0 +1,117 @@
+version: '3.8'
+
+services:
+  # ---------- NETWORK ----------
+  # Create network manually first: docker network create honeynet
+
+  # ---------- HONEYPOTS ----------
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: cowrie
+    networks:
+      honeynet:
+        ipv4_address: 192.168.0.3
+    ports:
+      - "22:22"
+      - "2222:2222"
+      - "23:23"
+    volumes:
+      - ./data/cowrie:/cowrie/var/log/cowrie
+    restart: unless-stopped
+    environment:
+      - COWRIE_TELNET_ENABLED=true
+      - COWRIE_SSH_ENABLED=true
+
+  dionaea:
+    image: cowrie/dionaea:latest
+    container_name: dionaea
+    networks:
+      honeynet:
+        ipv4_address: 192.168.0.4
+    ports:
+      - "21:21"
+      - "80:80"
+      - "443:443"
+      - "445:445"
+      - "3306:3306"
+      - "5060:5060"
+    volumes:
+      - ./data/dionaea:/opt/dionaea/var/log
+    restart: unless-stopped
+
+  # ---------- DATA PIPELINE ----------
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: elasticsearch
+    networks:
+      honeynet:
+        ipv4_address: 192.168.0.5
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - ./data/elasticsearch:/usr/share/elasticsearch/data
+    restart: unless-stopped
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:8.11.0
+    container_name: logstash
+    networks:
+      honeynet:
+        ipv4_address: 192.168.0.6
+    ports:
+      - "5044:5044"
+      - "9600:9600"
+    volumes:
+      - ./logstash/pipeline:/usr/share/logstash/pipeline
+      - ./logstash/config:/usr/share/logstash/config
+      - ./data/cowrie:/var/log/cowrie:ro
+      - ./data/dionaea:/var/log/dionaea:ro
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.0
+    container_name: kibana
+    networks:
+      honeynet:
+        ipv4_address: 192.168.0.7
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=${ELASTIC_PASSWORD}
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+
+  # ---------- STREAMLIT DASHBOARD ----------
+  streamlit:
+    build:
+      context: ./streamlit
+      dockerfile: Dockerfile
+    container_name: streamlit
+    networks:
+      honeynet:
+        ipv4_address: 192.168.0.8
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./streamlit:/app
+    environment:
+      - ES_HOST=elasticsearch
+      - ES_PORT=9200
+      - ES_USER=elastic
+      - ES_PASS=${ELASTIC_PASSWORD}
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+
+networks:
+  honeynet:
+    external: true
