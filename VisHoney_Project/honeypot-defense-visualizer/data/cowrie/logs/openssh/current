@@ -1,0 +1,10 @@
+2026-09-09 18:43:53.327357207  Server listening on 0.0.0.0 port 2222.
+2026-09-09 18:43:53.327373750  Server listening on :: port 2222.
+2026-09-09 18:43:54.235316950  Connection to localhost (::1) 2222 port [tcp/*] succeeded!
+2026-09-09 18:43:54.270472624  Connection closed by ::1 port 54584 [preauth]
+2026-09-09 18:44:49.850448781  Received signal 15; terminating.
+2026-09-09 18:45:14.997609303  Server listening on 0.0.0.0 port 2222.
+2026-09-09 18:45:14.997626978  Server listening on :: port 2222.
+2026-09-09 18:45:15.947051777  Connection to localhost (::1) 2222 port [tcp/*] succeeded!
+2026-09-09 18:45:15.969007436  Connection closed by ::1 port 44016 [preauth]
+2026-09-09 18:52:43.867349032  Received signal 15; terminating.

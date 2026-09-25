@@ -1,0 +1,758 @@
+[09092026 13:20:34] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:20:34] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 13:20:34] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:20:34] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 13:20:34] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:20:34] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 13:35:07] log /code/src/signals.c:36-warning: sigterm_cb loop 0x77dca21548e0 w 0x5db47f365f60 revents 1024
+[09092026 13:39:15] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:39:15] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 13:39:15] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:39:15] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 13:39:15] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:39:15] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 13:48:54] log /code/src/signals.c:36-warning: sigterm_cb loop 0x7e605f2f48e0 w 0x5f15c5607df0 revents 1024
+[09092026 13:55:10] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:55:10] sip /dionaea/sip/__init__.py:78-warning: Starting cleanup loop
+[09092026 13:55:10] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:55:10] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 13:56:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 13:57:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 13:58:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 13:59:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:00:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:01:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:02:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:03:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:04:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:05:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:06:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:07:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:08:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:09:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:10:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:11:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:12:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:13:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:14:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:15:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:16:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:17:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:18:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:19:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:20:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:20:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 14:20:38] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 14:21:10] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 14:21:23] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 14:21:23] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 14:21:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 14:21:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 14:21:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 14:21:36] mysqld /dionaea/mysql/mysql.py:83-warning: DATABASE opening information_schema
+[09092026 14:21:36] mysqld /dionaea/mysql/mysql.py:86-warning: open db information_schema -> :memory:
+[09092026 14:21:36] mysqld /dionaea/mysql/mysql.py:83-warning: DATABASE opening information_schema
+[09092026 14:21:36] mysqld /dionaea/mysql/mysql.py:86-warning: open db information_schema -> :memory:
+[09092026 14:21:36] mysqld /dionaea/mysql/mysql.py:83-warning: DATABASE opening information_schema
+[09092026 14:21:36] mysqld /dionaea/mysql/mysql.py:86-warning: open db information_schema -> :memory:
+[09092026 14:21:37] mysqld /dionaea/mysql/mysql.py:83-warning: DATABASE opening information_schema
+[09092026 14:21:37] mysqld /dionaea/mysql/mysql.py:86-warning: open db information_schema -> :memory:
+[09092026 14:21:38] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 14:21:38] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 14:21:39] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 14:21:39] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.1[09092026 18:01:29] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:01:29] sip /dionaea/sip/__init__.py:78-warning: Starting cleanup loop
+[09092026 18:01:29] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:01:29] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:02:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:03:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:04:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:05:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:05:59] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:08] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:14] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:21] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:06:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:42] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:48] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:06:54] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:07:00] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:07:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:08:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:09:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:10:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:11:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:12:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:13:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:14:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:15:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:16:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:17:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:18:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:19:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:20:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:21:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:22:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:23:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:24:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:25:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:26:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:27:30] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[09092026 18:28:07] log /code/src/signals.c:36-warning: sigterm_cb loop 0x7c17ffe008e0 w 0x5fbfa5a37930 revents 1024
+[09092026 18:28:37] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:28:37] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 18:28:37] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:28:37] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 18:28:37] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:28:37] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 18:31:52] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:31:52] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:31:53] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:31:53] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:31:53] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:31:58] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:31:58] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:32:00] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:32:00] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.2:443
+[09092026 18:32:10] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:32:10] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[09092026 18:44:49] log /code/src/signals.c:36-warning: sigterm_cb loop 0x7252d569e8e0 w 0x6455e45bbdf0 revents 1024
+[09092026 18:45:14] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:45:14] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 18:45:14] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:45:14] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 18:45:14] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[09092026 18:45:14] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[09092026 18:55:30] log /code/src/signals.c:36-warning: sigterm_cb loop 0x72c547b0e8e0 w 0x592b4f481bd0 revents 1024
+[10092026 15:45:25] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[10092026 15:45:25] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[10092026 15:45:25] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[10092026 15:45:25] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[10092026 15:45:25] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[10092026 15:45:25] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[10092026 15:49:04] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:49:13] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:49:18] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:49:26] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:49:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:49:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:49:41] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:49:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:52:42] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:52:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:52:52] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:52:57] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:53:02] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:26] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:54:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:55:11] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.4:443
+[10092026 15:59:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:38] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:38] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:38] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:39] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:39] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:39] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:40] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:40] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:40] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:41] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:41] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:41] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:42] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:42] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:42] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 15:59:43] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[10092026 20:14:30] log /code/src/signals.c:36-warning: sigterm_cb loop 0x7eb4149568e0 w 0x586bd1250220 revents 1024
+[11092026 10:24:41] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[11092026 10:24:41] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[11092026 10:24:41] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[11092026 10:24:41] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[11092026 10:24:41] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[11092026 10:24:41] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[11092026 11:32:30] log /code/src/signals.c:36-warning: sigterm_cb loop 0x741a978b58e0 w 0x6230c7e97ba0 revents 1024
+[24092026 13:25:15] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[24092026 13:25:15] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[24092026 13:25:15] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[24092026 13:25:15] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[24092026 13:25:15] services /dionaea/services.py:46-warning: Unable to start service
+Traceback (most recent call last):
+  File "lib/dionaea/python/dionaea/services.py", line 44, in start
+    daemons = service.start(addr, iface=iface, config=srv.get("config", {}))
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 70, in start
+    daemon = SipSession(proto=proto, config=config)
+  File "lib/dionaea/python/dionaea/sip/__init__.py", line 571, in __init__
+    self.config = SipConfig(config=config)
+  File "lib/dionaea/python/dionaea/sip/extras.py", line 99, in __init__
+    self._cur.execute("CREATE TABLE IF NOT EXISTS sdp (name STRING, sdp STRING)")
+sqlite3.OperationalError: database is locked
+[24092026 13:25:15] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[24092026 13:31:26] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.4:443
+[24092026 13:33:00] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:01] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:01] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:01] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:02] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:02] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:02] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:03] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:03] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:03] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:04] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:04] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:04] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:05] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:05] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:06] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:06] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:06] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:07] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:07] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:07] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:08] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:08] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:08] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:09] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:09] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:10] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:10] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:10] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:33:11] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:34:22] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:45] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:45] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:45] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:46] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:46] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:46] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:48] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:48] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:48] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:49] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:49] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:49] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:50] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:50] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:51] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:51] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:51] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:52] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:52] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:52] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:53] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:53] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:53] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:54] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:54] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:54] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:35:55] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:47] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:48] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:48] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:48] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:49] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:49] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:49] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:50] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:50] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:51] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:51] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:52] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:52] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:52] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:53] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:53] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:53] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:54] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:54] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:54] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:55] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:55] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:55] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:56] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:56] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:56] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:57] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 13:36:57] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[24092026 14:39:30] log /code/src/signals.c:36-warning: sigterm_cb loop 0x7ae489c298e0 w 0x5836bb2886a0 revents 1024
+[25092026 15:31:35] sip /dionaea/sip/__init__.py:78-warning: Starting cleanup loop
+[25092026 15:31:35] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[25092026 15:31:35] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[25092026 15:31:35] pptp /dionaea/pptp/pptp.py:52-warning: No config provided. Using default values
+[25092026 15:32:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:33:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:34:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:35:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:36:02] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:10] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:11] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:11] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:12] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:12] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:12] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:13] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:13] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:13] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:14] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:14] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:14] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:15] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:15] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:15] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:16] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:16] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:16] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:17] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:17] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:17] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:18] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:18] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:18] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:19] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:19] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:19] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:20] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:20] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:20] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:36:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:36:43] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.3:443
+[25092026 15:36:54] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.3:443
+[25092026 15:37:04] log_sqlite /dionaea/logsql.py:747-warning: no attackid for 172.18.0.3:443
+[25092026 15:37:12] mysqld /dionaea/mysql/mysql.py:83-warning: DATABASE opening information_schema
+[25092026 15:37:12] mysqld /dionaea/mysql/mysql.py:86-warning: open db information_schema -> :memory:
+[25092026 15:37:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:38:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:39:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:40:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:41:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:42:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:43:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:44:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:45:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:46:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:47:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:48:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:49:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:50:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:51:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:52:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:53:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:35] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:36] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:36] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:53:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:37] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:38] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:53:38] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 15:54:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:55:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:56:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:57:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:58:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 15:59:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:00:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:01:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:02:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:03:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:04:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:05:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:06:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:07:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:08:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:09:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:10:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:11:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:12:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:13:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:14:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:15:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:16:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:17:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:18:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:19:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:20:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:21:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:22:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:23:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:24:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:25:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:26:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:27:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:28:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:29:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:30:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:31:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:32:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:33:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:34:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:35:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:36:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:37:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:38:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:39:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:40:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:41:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:42:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:43:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:44:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:45:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:46:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:46:35] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 16:49:20] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:01:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:02:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:03:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:04:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:05:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:06:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:07:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:08:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:09:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:10:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:11:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:12:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:13:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:14:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:15:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:16:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:17:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:18:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:19:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:20:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:21:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:22:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:23:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:24:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:25:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:26:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:27:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:28:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:29:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:30:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:31:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:32:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:32:22] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:22] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:23] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:23] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:23] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:23] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:23] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:24] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:24] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:24] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:24] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:25] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:25] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:25] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:25] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:26] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:26] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:26] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:26] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:27] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:28] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:29] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:30] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:31] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:32] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:33] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:32:34] http /dionaea/http.py:133-warning: max_num_fields is only supported with Python >= 3.8
+[25092026 17:33:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:34:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026 17:35:00] sip /dionaea/sip/__init__.py:45-warning: Cleanup
+[25092026

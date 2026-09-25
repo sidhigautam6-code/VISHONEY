@@ -1,0 +1,17 @@
+@"
+[ssh]
+enabled = true
+listen_endpoints = tcp:2222:interface=0.0.0.0
+host_key_file = ssh_host_key
+
+[telnet]
+enabled = true
+listen_endpoints = tcp:23:interface=0.0.0.0
+
+[output_textlog]
+enabled = true
+logfile = /cowrie/var/log/cowrie/cowrie.log
+
+[honeypot]
+interactive_shell = /bin/sh
+"@ | Out-File -FilePath "data\cowrie\etc\cowrie.cfg" -Encoding utf8

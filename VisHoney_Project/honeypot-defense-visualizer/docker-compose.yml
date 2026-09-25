@@ -1,0 +1,105 @@
+services:
+  # ============================================
+  # 1. COWRIE - SSH HONEYPOT
+  # ============================================
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: cowrie
+    ports:
+      - "2222:2222"
+      - "23:23"
+    volumes:
+      - ./data/cowrie:/cowrie/var/log/cowrie
+    restart: unless-stopped
+    environment:
+      - COWRIE_SSH_ENABLED=true
+      - COWRIE_TELNET_ENABLED=true
+
+  # ============================================
+  # 2. DIONAEA - MALWARE HONEYPOT
+  # ============================================
+  dionaea:
+    image: dinotools/dionaea:latest
+    container_name: dionaea
+    ports:
+      - "21:21"
+      - "80:80"
+      - "443:443"
+      - "3306:3306"
+    volumes:
+      - ./data/dionaea:/opt/dionaea/var/log
+    restart: unless-stopped
+
+  # ============================================
+  # 3. ELASTICSEARCH - DATA STORAGE
+  # ============================================
+  elasticsearch:
+    image: elasticsearch:7.17.15
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms256m -Xmx256m
+      - bootstrap.memory_lock=true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./data/elasticsearch:/usr/share/elasticsearch/data
+    restart: unless-stopped
+
+  # ============================================
+  # 4. LOGSTASH - DATA PIPELINE
+  # ============================================
+  logstash:
+    image: logstash:7.17.15
+    container_name: logstash
+    ports:
+      - "9600:9600"
+    platform: linux/amd64
+    volumes:
+      - ./logstash/pipeline:/usr/share/logstash/pipeline
+      - ./logstash/config:/usr/share/logstash/config
+      - ./data/dionaea:/var/log/dionaea:ro
+      - ./data/cowrie:/var/log/cowrie:ro
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+
+  # ============================================
+  # 5. KIBANA - VISUALIZATION
+  # ============================================
+  kibana:
+    image: kibana:7.17.15
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
+
+  # ============================================
+  # 6. STREAMLIT - CUSTOM DASHBOARD
+  # ============================================
+  streamlit:
+    image: python:3.11-slim
+    container_name: streamlit
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./streamlit:/app
+    working_dir: /app
+    command: >
+      sh -c "pip install --no-cache-dir -r requirements.txt &&
+            streamlit run app.py --server.port=8501 --server.address=0.0.0.0"
+    environment:
+      - ES_HOST=elasticsearch
+      - ES_PORT=9200
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped
